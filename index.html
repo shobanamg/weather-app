@@ -9,24 +9,22 @@
 </head>
 <body>
 <main class="container">
-    <div class="header">
+    <section class="header">
         <h1>Weather App</h1>
-        <div>
-            <input type="text" id="searchbox" placeholder="enter city name">
-            <button type="submit" class="btn">Enter City</button>
+        <div class="inbut-box">
+            <input type="text" id="searchbox" placeholder="Enter city name">
+            <button type="submit" class="btn">Get Weather</button>
         </div>
-    </div>
-    <div class="weather-container">
+    </section>
+    <section class="weather-container">
         <h2 class="city"></h2>
-
         <h1 class="temperature"></h1>
         <div class="img-box">
-            <div><img src="" id="icon" alt="weatherImg"></div>
+            <img src="" id="icon"/>
             <p class="weather"></p></div>
         <p class="wind"></p>
         <p class="sun-rise-set"></p>
-
-    </div>
+    </section>
 </main>
 <script src="script.js"></script>
 </body>
